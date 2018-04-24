@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="370dp"
+        android:layout_height="157dp"
+        android:text="Witaj w aplikacji Bezpieczny Dom"
+        android:textSize="32sp"
+        android:layout_weight="0.23" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:text="Dalej"
+        android:layout_weight="0.03" />
+
+</LinearLayout>
